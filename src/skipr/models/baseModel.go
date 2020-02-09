@@ -13,6 +13,6 @@ package models
 // 	IsDeleted     bool      `gorm:"column:IsDeleted"`
 // 	DeletedDate   time.Time `gorm:"column:DeletedDate"`
 // 	DeletedBy     string    `gorm:"column:DeletedBy"`
-// 	DeletedBySID  string    `gorm:"column:DeletedBySID"`
+// 	DeletedBySID  string    `gorm:"column:DeletedBySID"`asdsad
 
 // }
