@@ -1,0 +1,57 @@
+{
+    "git.ignoreLimitWarning": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "go.docsTool": "godoc",
+    "go.formatTool": "goimports",
+    "go.formatFlags": [
+        "--local=github.com/nezorflame"
+    ],
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--config=/home/nezorflame/.config/.golangci.yml"
+    ],
+    "go.buildOnSave": "off",
+    "go.vetOnSave": "off",
+    "go.lintOnSave": "off",
+    "go.coverageDecorator": {
+        "type": "gutter",
+    },
+    "go.coverageOptions": "showUncoveredCodeOnly",
+    "go.coverOnTestPackage": true,
+    "go.coverOnSingleTest": false,
+    "go.testFlags": [
+        "-v",
+        "-cover"
+    ],
+    "go.addTags": {
+        "tags": "json",
+        "promptForTags": false,
+        "transform": "snakecase"
+    },
+    "go.enableCodeLens": {
+        "references": false,
+        "runtest": true
+    },
+    "go.useLanguageServer": true,
+    "go.languageServerExperimentalFeatures": {
+        "autoComplete": true,
+        "diagnostics": true,
+        "documentSymbols": true,
+        "findReferences": true,
+        "format": false,
+        "goToDefinition": true,
+        "goToTypeDefinition": true,
+        "hover": true,
+        "rename": true,
+        "signatureHelp": true,
+        "workspaceSymbols": true,
+    },
+    "[go]": {
+        "editor.snippetSuggestions": "top",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
+    }
