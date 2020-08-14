@@ -10,10 +10,11 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 )
 
-func init() {
+func Init() {
 	postgress.Setup()
 }
 
 func main() {
+	Init()
 	fmt.Printf("assdfsd")
 }

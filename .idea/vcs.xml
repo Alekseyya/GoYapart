@@ -2,5 +2,20 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/elazarl/go-bindata-assetfs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/fogleman/gg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/gerald1248/timeline" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/ghodss/yaml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/go-delve/delve" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/go-sql-driver/mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/golang/freetype" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/jteeuwen/go-bindata" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/kabukky/httpscerts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/lib/pq" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/xeipuuv/gojsonpointer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/xeipuuv/gojsonreference" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/xeipuuv/gojsonschema" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/image" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/gopkg.in/yaml.v2" vcs="Git" />
   </component>
 </project>

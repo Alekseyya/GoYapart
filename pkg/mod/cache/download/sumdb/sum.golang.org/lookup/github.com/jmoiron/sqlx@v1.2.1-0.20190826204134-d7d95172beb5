@@ -3,7 +3,7 @@ github.com/jmoiron/sqlx v1.2.1-0.20190826204134-d7d95172beb5 h1:lrdPtrORjGv1HbbE
 github.com/jmoiron/sqlx v1.2.1-0.20190826204134-d7d95172beb5/go.mod h1:1FEQNm3xlJgrMD+FBdI9+xvCksHtbpVBBw5dYhBSsks=
 
 go.sum database tree
-806548
-gScKC6aUvsTzknMclo4RLh/WaJOe+Cl/LhofuILplWc=
+1162480
+m5BfFj0GRiJnc9F+znRjc1o4I6LJf/7p182ADmu1YMA=
 
-— sum.golang.org Az3grip6+aY7ShXiKEmF3F8TdgdA+ahCsFJcNblDxurybsWeAvukBw5lA7ADHzP2LkthmTOqE/ees34VBDU1tCpH5g8=
+— sum.golang.org Az3grn2GXoHIJYbG4ysL+uYKZuL8zBOD4nph5I4R4vQKDcNuSjPWX+SrX2+XHzQgdna1/JlFJiPQ6T6TMh14L58QHwI=

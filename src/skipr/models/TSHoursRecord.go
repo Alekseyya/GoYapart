@@ -10,7 +10,7 @@ import (
 //Трудозатраты
 type TSHoursRecord struct {
 	// BaseModel                 BaseModel
-	ID           int       `gorm:"primary_key,AUTO_INCREMENT;column:ID;not null;"`
+	ID           int       `gorm:"primary_key;auto_increment:true;column:ID"`
 	ProjectID    int       `gorm:"column:ProjectID"`
 	EmployeeID   int       `gorm:"column:EmployeeID"`
 	RecordDate   time.Time `gorm:"column:RecordDate"`

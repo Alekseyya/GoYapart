@@ -1,8 +1,10 @@
 package models
 
-// import "github.com/jinzhu/gorm"
-
-import "fmt"
+import (
+	"errors"
+	"fmt"
+	. "yapart/services/postgress"
+)
 
 type IBrand interface {
 	IRepository
@@ -19,8 +21,12 @@ type Brand struct {
 	ProductModifications []ProductModification `gorm:"foreignkey:BrandId"`
 }
 
-func (b *Brand) Get() {
-	fmt.Println("asdasd")
+func (b *Brand) Get() ([]*Brand, error){
+	var brands []*Brand
+	if err := YapartDB.Find(&brands).Error; err != nil {
+		return brands, err
+	}
+	return nil, errors.New("Таблица пуста")
 }
 
 func (b *Brand) Add() {
