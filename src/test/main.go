@@ -1,10 +1,10 @@
 package main
 
 import (
-	"flag"
 	"fmt"
 	"math"
 	"strconv"
+	"test/LeetCode"
 	"time"
 	"unicode"
 )
@@ -204,18 +204,24 @@ func ChangeValueReturn(x int) int {
 	return x * x
 }
 
+func ChangeValueReturn1(x int) bool {
+	if x*x > 10 {
+		return true
+	}
+	return false
+}
+
 //Если хочется изменить значение то надо писать через указатель
 //Надо передавать ссылку сюда
 func ChangeValueFromPointer(x *int) {
 	*x = (*x) * (*x)
 }
 
-//Возврат ссылки на машину в магазине
-// func (s *Store) GetCar() *Car {
-//     return &Car{Store: s}
-// }
-
 func main() {
+	var arr = []int{0, 0, 3, 0}
+	fmt.Println(LeetCode.CreateNotRepeatedValues(arr))
+	fmt.Println(LeetCode.CompareByNumber(3, 30))
+
 	//fmt.Println(^uint32(0))
 	// fmt.Println(reverse_int(-2147483648))
 	// fmt.Println(reverse_int(1534236469))
@@ -230,14 +236,14 @@ func main() {
 	// d = ChangeValueReturn(8)
 	// fmt.Println(d)
 	// ChangeValueFromPointer(&d)
-	// fmt.Println(d)
-	certificate := flag.String("c", "cert.pem", "TLS server certificate")
-	key := flag.String("k", "key.pem", "TLS server key")
-	hostname := flag.String("n", "localhost", "Hostname")
-	port := flag.Int("p", 8443, "listen on port")
-	fmt.Println(*certificate)
-	fmt.Println(*key)
-	fmt.Println(*hostname)
-	fmt.Println(*port)
-	fmt.Println(fmt.Sprintf("%s:%d", *hostname, *port))
+	// // fmt.Println(d)
+	// certificate := flag.String("c", "cert.pem", "TLS server certificate")
+	// key := flag.String("k", "key.pem", "TLS server key")
+	// hostname := flag.String("n", "localhost", "Hostname")
+	// port := flag.Int("p", 8443, "listen on port")
+	// fmt.Println(*certificate)
+	// fmt.Println(*key)
+	// fmt.Println(*hostname)
+	// fmt.Println(*port)
+	// fmt.Println(fmt.Sprintf("%s:%d", *hostname, *port))
 }

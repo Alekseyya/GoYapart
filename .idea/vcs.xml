@@ -9,6 +9,7 @@
     <mapping directory="$PROJECT_DIR$/src/github.com/go-delve/delve" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/go-sql-driver/mysql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/golang/freetype" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/gorilla/websocket" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/jteeuwen/go-bindata" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/kabukky/httpscerts" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/lib/pq" vcs="Git" />
